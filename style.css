@@ -1,0 +1,265 @@
+
+.tombol-navbar{
+    margin-left: 0px;
+    border-radius:30px;
+}
+
+.jumbotron{
+    background-image: url(jumbotron2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:620px;
+    color: white!important;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.tombol{
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.find-me{
+    margin-top: 50px;
+}
+
+.jumbotron ul{
+    display: flex;
+    list-style: none;
+    margin-left: -38px;
+}
+
+.jumbotron ul li{
+    margin-right: 5px;
+}
+
+
+/* Achievement */
+.achievement{
+    background-color: #2b2344;
+    margin-top: -34px;
+    height: 800px;
+    color: white;
+}
+
+.card1{
+    margin-top: 50px;
+    background-color: transparent;
+    border-color: red;
+    border-radius: 0px 30px 0px 0px;
+    
+}
+
+.card-title1{
+    margin-top: -40px;
+}
+
+.card-title img{
+    border-radius: 10px;
+}
+
+/* Reward */
+.reward1{
+    background-image: url(bg2.png);
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.reward1 h1{
+    margin-top: 70px;
+}
+
+.reward1 ul{
+    display: flex;
+    list-style: none;
+}
+
+.img1{
+    margin-top: 30px;
+    height: 340px;
+    width: 250px;
+    margin-left: -40px;
+}
+
+.img2{
+    height:300px;
+    width: 300px;
+    margin-left: -270px;
+    margin-top: 50px;
+}
+
+.reward1 ol{
+    display: flex;
+    list-style: none;
+}
+
+/* Skill And Experience */
+.skill{
+    background-color:#2b2344 ;
+    padding-top: 20px;
+    height: 1300px;
+}
+
+.skill h1, h5{
+    color: white;
+}
+
+.card2{
+    background-color: rgb(38, 37, 41) ;
+    color: white;
+}
+
+.category li{
+    text-align: left !important;
+}
+
+/* What Im Offer */
+.offer{
+    background-image: url(bg2.png);
+    height: 1800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+.offer h1{
+    color: white;
+}
+
+.card3{
+    background-color: #2b2344;
+    border-radius: 0px 50px 0px 0px ;
+    color: white;
+}
+
+/* portfolio */
+.portfolio{
+    height: 900px;
+    background-color: #2b2344;
+}
+
+.portfolio h1{
+    color: white;
+}
+
+
+.client h2{
+    color: white;
+}
+
+/* Latest News */
+.latest img{
+    width: 300px;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.footer{
+    color: white;
+    margin-top: -100px;
+    height: 300px;
+    background-image: url(bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+
+
+
+
+
+/* Desktop Version */
+@media(min-width:992px){
+
+    .navbar-brand, .nav-link{
+        color: white!important;
+    }
+
+
+    .tombol-navbar{
+        margin-left: 200px;
+    }
+
+    .jumbotron{
+        background-image: url(jumbotron2.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height:650px;
+        color: white!important;
+        padding-top: 200px;
+        text-align: left;
+    }
+
+    .jumbotron{
+        margin-top: -65px;
+    }
+
+    .tombol{
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .find-me{
+        margin-top: 90px;
+    }
+
+    /* Achievement */
+    .achievement{
+        background-color: #2b2344;
+        margin-top: -34px;
+        height:250px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .card1{
+        margin-top: 50px;
+        background-color: transparent;
+        border-color: red;
+        border-radius: 0px 30px 0px 0px;   
+    }
+
+    /* Reward */
+    .reward1{
+        background-image: url(bg2.png);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+
+    .img1{
+        margin-top: 30px;
+        height: 360px;
+        width: 300px;
+        margin-left: -1px;
+    }
+
+    .img2{
+        height:300px;
+        width: 300px;
+        margin-left: -270px;
+        margin-top: 50px;
+    }
+
+    /* Skill And Experience */
+.skill{
+    background-color:#2b2344 ;
+    padding-top: 20px;
+    height: 700px;
+}
+
+    /* Offer */
+    .offer{
+        background-image: url(bg2.png);
+        height: 800px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
